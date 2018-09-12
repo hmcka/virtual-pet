@@ -27,7 +27,9 @@ public class VirtualPetMain {
 			System.out.println("3. Play with Sana.");
 			System.out.println("4. Leave Sana be.");
 			System.out.println("5. Get Sana's stats.");
-			userChoice = input.nextLine();
+			System.out.println("\n>");
+
+			userChoice = input.next();
 
 			switch (userChoice) {
 			case "1":
